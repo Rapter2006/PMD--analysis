@@ -1,0 +1,20 @@
+Avoid empty synchronized blocks  - 2099
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.  - 269
+Avoid using a branching statement as the last in a loop.  - 170
+Dont create instances of already existing BigInteger and BigDecimal (ZERO, ONE, TEN)  - 10
+Empty initializer was found  - 41
+Empty static initializer was found  - 41
+Ensure you override both equals() and hashCode()  - 149
+Invoke equals() on the object you've already ensured is not null  - 9
+Overriding method merely calls super  - 310
+The null check here is misplaced; if the variable is null there will be a NullPointerException  - 10
+These nested if statements could be combined  - 22
+Unnecessary final modifier in final class  - 7501
+Useless parentheses.  - 3582
+empty statement (semicolon) not part of a loop  - 4144
+not hard code the IP address  - 101
+not hardcode /sdcard.  - 11
+not use if statements that are always true or always false  - 21
+operation on an Immutable object (String, BigDecimal or BigInteger) wont change the object itself  - 4
+super should be called at the end of the method  - 72
+super should be called at the start of the method  - 86
